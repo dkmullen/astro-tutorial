@@ -1,4 +1,7 @@
 ---
+import '../styles/global.css';
+
+const pageTitle = 'Empty Telephone (Blog)';
 ---
 
 <html lang='en'>
@@ -7,17 +10,22 @@
     <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
     <meta name='viewport' content='width=device-width' />
     <meta name='generator' content={Astro.generator} />
-    <title>Me Astro</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <a href='/'>Home</a>
     <a href='/about/'>About</a>
-    <a href='/telephone/'>Empty Telephone</a>
-    <h1>Empty Telephone</h1>
+    <a href='/blog/'>Blog</a>
+    <h1>{pageTitle}</h1>
     <h1>My Blog: Empty telephone</h1>
     <p>
       I'm talking to an empty telephone. Cause there's a dead man on the other
       end of this %$#@ line!
     </p>
+    <ul>
+      <li><a href='/posts/post-1'>Man, I HAD to get it on!</a></li>
+      <li><a href='/posts/post-2'>The heat around the corner</a></li>
+      <li><a href='/posts/post-3'>How to grab it</a></li>
+    </ul>
   </body>
 </html>

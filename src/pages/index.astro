@@ -1,4 +1,7 @@
 ---
+import '../styles/global.css';
+
+const pageTitle = 'Home';
 ---
 
 <html lang='en'>
@@ -7,12 +10,12 @@
     <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
     <meta name='viewport' content='width=device-width' />
     <meta name='generator' content={Astro.generator} />
-    <title>Me Astro</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <a href='/'>Home</a>
     <a href='/about/'>About</a>
-    <a href='/telephone/'>Empty Telephone</a>
-    <h1>Me Astro Site</h1>
+    <a href='/blog/'>Empty Telephone</a>
+    <h1>Me Astro Site ({pageTitle})</h1>
   </body>
 </html>
