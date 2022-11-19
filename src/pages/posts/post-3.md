@@ -1,4 +1,5 @@
 ---
+layout: '../../layouts/MarkdownPostLayout.astro'
 title: How to Grab It
 author: Astro Learner
 description: 'I had some challenges, but asking in the community really helped!'
@@ -8,9 +9,5 @@ image:
 pubDate: 2022-11-12
 tags: ['astro', 'learning in public', 'setbacks', 'community']
 ---
-
-# How to Grab It
-
-Published on: 2022-11-13
 
 This stuff's just out there. You just need to know [how to grab it](https://astro.build/chat).

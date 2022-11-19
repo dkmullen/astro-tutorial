@@ -1,5 +1,6 @@
 ---
-title: 'My First Blog Post'
+layout: '../../layouts/MarkdownPostLayout.astro'
+title: 'Man, I HAD to get it on!'
 pubDate: 2022-07-01
 description: 'This is the first post of my new Astro blog.'
 author: 'Astro Learner'
@@ -8,10 +9,6 @@ image:
   alt: 'The Astro logo with the word One.'
 tags: ['astro', 'blogging', 'learning in public']
 ---
-
-# Man, I HAD to get it on!
-
-Published on: 2022-11-13
 
 Man, I _had_ to get it on! He was making a move!
 

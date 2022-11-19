@@ -1,4 +1,5 @@
 ---
+layout: '../../layouts/MarkdownPostLayout.astro'
 title: The heat around the corner
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
@@ -8,9 +9,5 @@ image:
 pubDate: 2022-11-13
 tags: ['astro', 'blogging', 'learning in public', 'successes']
 ---
-
-# The heat around the corner
-
-Published on: 2022-11-13
 
 Never have nothing in your life you can't walk out on in 30 seconds flat if you feel the heat around the corner.
