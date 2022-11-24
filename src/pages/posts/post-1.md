@@ -7,7 +7,7 @@ author: 'Astro Learner'
 image:
   url: 'https://astro.build/assets/blog/astro-1-release-update/cover.jpeg'
   alt: 'The Astro logo with the word One.'
-tags: ['astro', 'blogging', 'learning in public']
+tags: ['astro', 'blogging', 'learning in public', 'heat']
 ---
 
 Man, I _had_ to get it on! He was making a move!
